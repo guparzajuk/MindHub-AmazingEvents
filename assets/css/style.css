@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 30px;
+    background-color: aquamarine;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 120px;
+}
+
+h1{
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+    gap: 5px;
+}
+.form-category{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 20px;
+}
+div>form{
+    display: inline;
+}
+.cards{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 400px;
+
+}
+.card{
+    width: 250px;
+    margin: 40px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgray;
+    height: 80px;
+}
+
+.redes-container ul li{
+    display: inline-block;
+    list-style: none;
+    align-items: center;
+
+}
+.redes-container ul li a{
+    color: white;
+    font-size: 1.5rem;
+    margin: 10px;
+}
+div h3{
+   color: white;
+   margin-right: 20px;
+}
+
+
+/* Media Query - First Mobile*/
+@media screen and (min-width: px) {}
