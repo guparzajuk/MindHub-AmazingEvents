@@ -17,8 +17,9 @@ nav{
     width: 120px;
 }
 
-h1{
+h2{
     height: 50px;
+    font-size: 3rem;
     text-align: center;
     align-items: center;
     padding: 5px;
