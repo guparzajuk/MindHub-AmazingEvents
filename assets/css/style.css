@@ -19,7 +19,7 @@ nav{
 
 h2{
     height: 50px;
-    font-size: 3rem;
+    font-size: auto;
     text-align: center;
     align-items: center;
     padding: 5px;
@@ -34,15 +34,15 @@ h2{
 div>form{
     display: inline;
 }
-.cards{
+.cards-container{
 display: flex;
-justify-content: center;
+flex-wrap: wrap;
+justify-content: space-between;
 align-items: center;
-height: 400px;
-
 }
 .card{
-    width: 250px;
+    font-size: auto;
+   width: 200px;
     margin: 40px;
 }
 footer{
@@ -68,6 +68,31 @@ div h3{
    color: white;
    margin-right: 20px;
 }
+.form-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    padding:15px ;
+}
+textarea,input {
+     width: 300px;
+}
+.submit1{
+    background-color: aqua;
+    width: 100px;
+}
+.submit2 {
+    width: auto;
+}
+
+table{
+  width: 100%;
+  border: 1px solid black;
+}
+
 
 
 /* Media Query - First Mobile*/
