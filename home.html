@@ -24,7 +24,7 @@
     <title>Home</title>
   </head>
   <body>
-    <header>
+<header>
       <nav>
         <div class="navbar-logo">
           <img
@@ -35,48 +35,49 @@
         </div>
         <div class="navbar">
           <div class="d-grid gap-2 d-md-block">
-            <button class="btn btn-primary" type="button">Home</button>
-            <button class="btn btn-primary" type="button">
-              Upcoming Events
-            </button>
-            <button class="btn btn-primary" type="button">Past Events</button>
-            <button class="btn btn-primary" type="button">Contact</button>
-            <button class="btn btn-primary" type="button">Stats</button>
+            <button class="btn btn-primary" type="button"><a href="./home.html">Home</a></button>
+            <button class="btn btn-primary" type="button"><a href="./upcomingEvents.html">Upcoming Events</a></button>
+            <button class="btn btn-primary" type="button"><a href="./pastEvents.html">Past Events</a></button>
+            <button class="btn btn-primary" type="button"><a href="./contact.html">Contact</a></button>
+            <button class="btn btn-primary" type="button"><a href="./stats.html">Stats</a></button>
           </div>
         </div>
       </nav>
     </header>
+    <h2>Home</h2>
     <div class="row-container">
-      <h2>Home</h2>
-      <section class="form-category">
-        <form>
-          <input type="text" name="busqueda" placeholder="Buscar" />
-          <input type="submit" value="🔍" class="submit2"/>
-        </form>
-        <div class="category">
-          <label>
-            <input type="checkbox" name="check" value="1" />
-            <span>Category</span></label
-          >
-          <label>
-            <input type="checkbox" name="check" value="2" /><span
-              >Category</span
-            ></label
-          >
-          <label>
-            <input type="checkbox" name="check" value="3" />
-            <span>Category</span></label
-          >
-          <label>
-            <input type="checkbox" name="check" value="4" />
-            <span>Category</span></label
-          >
-          <label>
-            <input type="checkbox" name="check" value="5" />
-            <span>Category</span></label
-          >
-        </div>
-      </section>
+      <form class="rowsearch">
+        <input
+          type="text"
+          name="busqueda"
+          placeholder="Buscar"
+          class="submit1"
+        />
+        <input type="submit" value="🔍" class="rigth submit2" />
+      </form>
+      <div class="rowcategory">
+        <label>
+          <input type="checkbox" name="check" value="1" />
+          <span>Category</span></label
+        >
+        <label>
+          <input type="checkbox" name="check" value="2" /><span
+            >Category</span
+          ></label
+        >
+        <label>
+          <input type="checkbox" name="check" value="3" />
+          <span>Category</span></label
+        >
+        <label>
+          <input type="checkbox" name="check" value="4" />
+          <span>Category</span></label
+        >
+        <label>
+          <input type="checkbox" name="check" value="5" />
+          <span>Category</span></label
+        >
+      </div>
     </div>
     <div class="cards-container">
       <div class="card">
