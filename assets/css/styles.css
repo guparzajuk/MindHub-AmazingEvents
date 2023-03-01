@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header>nav>div {
+    background-color: rgb(186, 237, 239);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 2rem;
+}
+
+.divnavimg img {
+    max-width: 100%;
+}
+
+.divnavbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.divnavbar a {
+    color: rgb(97, 97, 97);
+    background-color: rgb(239, 244, 248);
+    margin: 10px;
+    padding: 4px 1rem 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.divnavbar a:hover {
+    background-color: rgb(201, 201, 255);
+}
+
+.divnavbar>.active {
+    color: black;
+}
+
+.banner {
+    background-color: rgb(204, 194, 194);
+    display: flex;
+    justify-content: center;
+}
+
+.banner a {
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+h1,
+a {
+    padding: 1rem;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(186,237,239);
+    display: flex;
+    justify-content: space-between;
+}
+
+.divfootersocial img {
+    width: 40px;
+}
+
+.divfootersocial {
+    display: flex;
+    justify-content: center;
+}
+
+.divfooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Home */
+.divcartas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 3rem 0;
+    gap: 1rem;
+}
+
+.divcartas .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.divcardbody {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar,
+.divcartas {
+    background-color: rgb(247, 247, 247);
+}
+
+#navbar {
+    padding: 1rem 2rem;
+}
+
+.fieldset {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fieldset>label {
+    display: flex;
+    margin: 1rem;
+}
+
+span {
+    margin: 5px;
+}
+
+/* contacts */
+
+.contactform {
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactform>form {
+    background-color: rgb(217, 238, 224);
+    margin: 1rem;
+    border: 2px solid rgb(9, 3, 95);
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+fieldset label,
+fieldset span {
+    display: block;
+}
+
+form span {
+    margin: 0;
+}
+
+label>input,
+label>textarea {
+    width: 100%;
+}
+
+#submit {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+#submit input {
+    padding: 0 4px;
+}
+
+.tables {
+    background-color: rgb(247, 247, 247);
+    padding: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+table {
+    background-color: white;
+    border: 1px solid black;
+}
+
+caption {
+    font-size: x-large;
+    caption-side: top;
+    background-color: rgb(186,237, 239);
+    border: 1px solid black;
+    padding: 1rem 0;
+}
+
+tr th,
+tr td {
+    border: 1px solid black;
+}
+
+.details {
+    background-color: rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.details>.card {
+    margin: 3rem;
+    border: 1px solid black;
+    padding: 1rem;
+    border-radius: 1rem;
+}
